@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255 255 255);
+}
+
+header {
+    background-color: #9ee1ff;
+    color: #213036;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-size: 1.3em;
+}
+
+nav {
+    background-color: #000000c9;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    background-color: #213036;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    background-color: #213036;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    background-color: #213036;
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome{
+    text-align: center; 
+    font-size: 2em; 
+    margin-top: 10%;
+   
+}
+
+footer {
+    background-color: #213036;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+/*table style*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Set background color for the table */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #213036; /* Set background color for table headers */
+    color: white;
+}
+
+/* Style the form container */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+    display: block; 
+    margin-top: 10px; 
+}
+
+.view_details {
+    align-items: center;
+    margin-top: 7%;
+    font-size: large;
+    color: #000000;
+    margin-left: 40%;
+  }
+
+
+
+
+
+
+
+
+
